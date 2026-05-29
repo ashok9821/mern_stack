@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+/* Top Header */
+
+
+.bg {
+    background-color: rgb(255, 229, 31);
+    border-radius: 20px;
+    color: #333;
+}
+
+.travel-logo {
+    background-color: rgba(208, 207, 194, 0.763);
+    border-radius: 20px;
+    color: #333;
+}
+
+/* Search Header */
+.search-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+
+.search-input {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #1976D2;
+    background-color: #fff;
+}
+
+/* Header Options */
+.header-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.header-option i {
+    font-size: 18px;
+}
+
+.header-option:hover {
+    color: #1976D2;
+}
