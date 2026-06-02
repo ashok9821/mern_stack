@@ -68,3 +68,91 @@ p{
 .header-option:hover {
     color: #1976D2;
 }
+#footer{
+    background-color: #000;
+    color: #fff;
+   
+}
+ul li{
+    list-style: none;
+
+
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    
+}
+.border-bottom-1{
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer {
+    
+    border-top: 1px solid #3f4a5a;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-links {
+    gap: 75px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a i {
+    color: #f1c40f;
+    margin-right: 6px;
+}
+
+.footer-links a:hover {
+    color: #f1c40f;
+}
+
+.copyright {
+    color: #fff;
+    white-space: nowrap;
+}
+
+.payment-icons img {
+    width: 40px;
+    height: auto;
+    margin-left: 8px;
+    background: #fff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+@media (max-width: 991px) {
+    .footer-links {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .copyright {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .payment-icons {
+        justify-content: center !important;
+    }
+}
+.tab-box p{
+ color:#000;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active img{
+    background: #5d5dff;
+    border-radius: 7px;
+    padding: 3px;
+}
+
