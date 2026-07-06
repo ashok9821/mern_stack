@@ -1,0 +1,49 @@
+  
+  :root{
+    --blue-card-bg: #b6ceda;
+    --purple-card-bg: #c2b2e5;
+    --pink-card-bg: #f481a2
+}
+
+.box-customization{
+    height: 425px;
+    width: 100%;
+    background-color:var(--purple-card-bg);
+    
+    border-radius:10px;
+
+}
+.box-sheduling{
+     height: 200px;
+    width: 100%;
+    
+    background-color:var(--pink-card-bg);
+    border-radius:10px;
+
+    
+}
+.box-analytics{
+     height: 200px;
+    width: 100%;
+    
+    background-color: rgb(153, 185, 10);
+    border-radius:10px;
+}
+.box-analytics-2{
+     height: 200px;
+    width: 100%;
+    background-color: rgb(134, 5, 48);
+    border-radius:10px;
+}
+.heading{
+    height:200px;
+    width:100%;
+    background-color: rgb(187, 86, 3);
+    border-radius:10px;
+}
+.heading-2{
+    height:200px;
+    width:100%;
+    background-color:var(--blue-card-bg);
+    border-radius:10px;
+}
